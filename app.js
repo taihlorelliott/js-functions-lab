@@ -89,12 +89,14 @@ Example: greetUser('Sam', 'morning') should return "Good morning, Sam!"
 
 Complete the exercise in the space below:
 */
-function greetUser(){
-    
+function greetUser(name, timeOfDay){
+    return `Good ${timeOfDay}, ${name}!`
+
 }
 
 
 console.log('Exercise 5 Result:', greetUser("Sam", "morning"));
+
 
 
 
